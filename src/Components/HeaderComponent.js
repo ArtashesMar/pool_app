@@ -1,7 +1,8 @@
 import React from 'react';
 import '../Styles/Header.css';
-import logo from "../files/logo_pool.jpg"
 import logo_tr from "../files/logo_pool_transperent.png"
+import { Route, Router, Routes } from 'react-router-dom';
+import App from '../App';
 
 export const Header = () => {
   return (
@@ -12,11 +13,17 @@ export const Header = () => {
           <span className="logo"> <a href="/" className="nav-link">  <img width={120} height={100} src={logo_tr} alt="Logo"  /></a></span>
           <nav>
             <ul className="nav-menu">
-              <li><a href="#pro" className="nav-link">Pro</a></li>
-              <li><a href="#teams" className="nav-link">Teams</a></li>
-              <li><a href="#pricing" className="nav-link">Pricing</a></li>
-              <li><a href="#docs" className="nav-link">Documentation</a></li>
-            </ul>
+               <Router>
+               <Routes>
+              <li className="nav-link">  <Route path="/" element={<App/>} />Pro</li>
+              {/* <li className="nav-link">  <Route path="/Teams" element={<Teams/>} />Teams</li> */}
+              {/* <li className="nav-link">  <Route path="/Pricing" element={<Pricing/>} />Pricing</li> */}
+              {/* <li className="nav-link">  <Route path="/Documentation" element={<Pricing/>} />Documentation</li> */}
+             
+              </Routes>
+              </Router>
+              
+                </ul>
           </nav>
         </div>
 
@@ -32,7 +39,7 @@ export const Header = () => {
               Search
             </button>
           </div>
-          <button className="action-button">Sign Up</button>
+          <button className="action-button"><a href='registration' className="nav-link">Sign Up</a></button>
           <button className="action-button">Sign In</button>
         </div>
       </div>

@@ -1,13 +1,15 @@
 import './App.css';
+import { BeforeAfterHover } from './Components/BeforeAfter';
+import { Carousel } from './Components/CarouselComponents';
 import { Footer } from './Components/FooterComponent';
 import { Header } from './Components/HeaderComponent';
-import Carousel from './Components/CaruselComponents';
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <Carousel/>
+      <Carousel />
+      <BeforeAfterHover/>
       <Footer/>
     </div>
   );
