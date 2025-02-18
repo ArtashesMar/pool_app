@@ -1,41 +1,44 @@
 import React, { useEffect, useState } from 'react';
 import "../Styles/Slider.css";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
+import item from "../images/images (1).jpeg"
+import item1 from "../images/images.jpeg"
+import item2 from "../images/istockphoto-1438170806-612x612.jpg"
 
 const _items = [
   {
     player: {
       title: 'Efren Reyes',
       desc: 'Known as "The Magician", Efren Reyes is well regarded by many professionals as the greatest all-around player of all time.',
-      image: 'https://i.postimg.cc/RhYnBf5m/er-slider.jpg',
+      image: item,
     },
   },
   {
     player: {
       title: "Ronnie O'Sullivan",
       desc: "Ronald Antonio O'Sullivan is a six-time world champion and is the most successful player in snooker history.",
-      image: 'https://i.postimg.cc/qBGQNc37/ro-slider.jpg',
+      image: item1,
     },
   },
   {
     player: {
       title: 'Shane Van Boening',
       desc: 'The "South Dakota Kid" is hearing-impaired and uses a hearing aid, but it has not limited his ability.',
-      image: 'https://i.postimg.cc/cHdMJQKG/svb-slider.jpg',
+      image: item2,
     },
   },
   {
     player: {
       title: 'Mike Sigel',
       desc: 'Mike Sigel or "Captain Hook" is an American professional pool player with over 108 tournament wins.',
-      image: 'https://i.postimg.cc/C12h7nZn/ms-1.jpg',
+      image: item,
     },
   },
   {
     player: {
       title: 'Willie Mosconi',
       desc: 'Nicknamed "Mr. Pocket Billiards," Willie Mosconi was among the first Billiard Congress of America Hall of Fame inductees.',
-      image: 'https://i.postimg.cc/NfzMDVHP/willie-mosconi-slider.jpg',
+      image: item1,
     },
   },
 ];

@@ -14,9 +14,9 @@ export const Footer = () => {
         <div>
           <h3 className="text-lg font-semibold">Contact Us</h3>
           <ul className="mt-2 space-y-2">
-            <li className="flex items-center justify-center md:justify-start"><FaPhone className="mr-2" /> (123) 456-7890</li>
+            {/* <li className="flex items-center justify-center md:justify-start"><FaPhone className="mr-2" /> (123) 456-7890</li>
             <li className="flex items-center justify-center md:justify-start"><FaEnvelope className="mr-2" /> info@clearwater.com</li>
-            <li className="flex items-center justify-center md:justify-start"><FaMapMarkerAlt className="mr-2" /> 123 Pool St, Miami, FL</li>
+            <li className="flex items-center justify-center md:justify-start"><FaMapMarkerAlt className="mr-2" /> 123 Pool St, Miami, FL</li> */}
           </ul>
         </div>
         
@@ -24,10 +24,10 @@ export const Footer = () => {
         <div>
           <h3 className="text-lg font-semibold">Our Services</h3>
           <ul className="mt-2 space-y-2">
-            <li><a href="#" className="text-gray-300 hover:text-white">Pool Cleaning</a></li>
+            {/* <li><a href="#" className="text-gray-300 hover:text-white">Pool Cleaning</a></li>
             <li><a href="#" className="text-gray-300 hover:text-white">Water Testing</a></li>
             <li><a href="#" className="text-gray-300 hover:text-white">Chemical Balancing</a></li>
-            <li><a href="#" className="text-gray-300 hover:text-white">Equipment Repair</a></li>
+            <li><a href="#" className="text-gray-300 hover:text-white">Equipment Repair</a></li> */}
           </ul>
         </div>
         
@@ -35,10 +35,10 @@ export const Footer = () => {
         <div>
           <h3 className="text-lg font-semibold">Follow Us</h3>
           <div className="flex justify-center md:justify-start space-x-4 mt-2">
-            <a href="#" className="text-gray-300 hover:text-white text-xl"><FaFacebook /></a>
+            {/* <a href="#" className="text-gray-300 hover:text-white text-xl"><FaFacebook /></a>
             <a href="#" className="text-gray-300 hover:text-white text-xl"><FaTwitter /></a>
             <a href="#" className="text-gray-300 hover:text-white text-xl"><FaInstagram /></a>
-            <a href="#" className="text-gray-300 hover:text-white text-xl"><FaLinkedin /></a>
+            <a href="#" className="text-gray-300 hover:text-white text-xl"><FaLinkedin /></a> */}
           </div>
         </div>
       </div>

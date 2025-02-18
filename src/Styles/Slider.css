@@ -41,6 +41,7 @@ a {
   width: 80%;
   left: 50%;
   transform: translateX(-50%);
+  margin-bottom: 10%;
 }
 
 .carousel__inner {
