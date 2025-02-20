@@ -1,0 +1,22 @@
+**Business Logic for Payment Process**
+
+### **Phase 1: Booking and Advance Payment**
+1. The customer selects the type of work they need.
+2. They choose a convenient time slot from the available options.
+3. The customer makes an **advance payment** to confirm the booking.
+4. Cancellation policy:
+   - If the customer cancels **less than 2 days before the appointment**, the advance payment is **non-refundable**.
+   - If the service provider fails to deliver the service, the **advance payment is refunded within 1 day**.
+   - If the service is successfully provided, the advance payment is deducted from the final amount.
+
+### **Phase 2: Payment Deduction and Dispute Process**
+1. Before the start of the work, the **remaining balance is charged** from the customer's payment method.
+2. After the work is completed, the customer can review the results.
+3. If the customer is **not satisfied**, they can open a dispute online.
+   - Depending on the resolution, the customer may receive a **partial or full refund**.
+   
+### **Phase 3: Order Closure**
+1. The customer **confirms** that the work has been completed to their satisfaction.
+2. Once confirmed, the order is **officially closed**.
+3. In **exceptional cases**, the **administration can close the order** if necessary.
+
