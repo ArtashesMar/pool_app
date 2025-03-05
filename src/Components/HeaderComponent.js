@@ -1,6 +1,8 @@
 import React from 'react';
 import '../Styles/Header.css';
 import logo_tr from "../files/logo_pool_transperent.png"
+import { Link } from 'react-router-dom';
+import { MenuComponents } from './MenuComponents';
 
 
 export const Header = () => {
@@ -9,7 +11,8 @@ export const Header = () => {
       <div className="header-container">
         {/* Logo Section */}
         <div className="logo-section">
-          <span className="logo"> <a href="/" className="nav-link">  <img width={120} height={100} src={logo_tr} alt="Logo"  /></a></span>
+          <span className="logo"> <Link to="/"> <img width={120} height={100} src={logo_tr} alt="Logo"  /></Link></span>
+         <MenuComponents/>
           <nav>
             <ul className="nav-menu">
             
@@ -29,8 +32,8 @@ export const Header = () => {
               Search
             </button>
           </div>
-          <button className="action-button"><a href='registration' className="nav-link">Sign Up</a></button>
-          <button className="action-button">Sign In</button>
+          <button className="action-button"><Link to="/registration" className="nav-link">Sign Up</Link></button>
+          <button className="action-button" > <Link to="/login" className="nav-link">Sign In</Link></button>
         </div>
       </div>
     </header>
